@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayNotification(){
         val notificationID = 20
-        val emailObject = "contoh"
         val intent = Intent(this, HalamanActivity2::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         }
